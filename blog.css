@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#titulo {
+  margin-top: 40px;
+  color: #f49ac2;
+}
+
+#contenedor-nav {
+  margin-top: 40px;
+}
+
+#barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+#barra li {
+  list-style: none;
+}
+
+#barra a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#barra a:hover {
+  color: #f49ac2;
+}
+
+#contenedor-blog {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#contenedor-articulos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+
+#Articulos {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid #ddd;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.Articulos h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.Articulos span {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.Articulos p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.Articulos a {
+  font-size: 1rem;
+  color: #f49ac2;
+  text-decoration: none;
+}
+
+.Articulos a:hover {
+  text-decoration: underline;
+}
+
+.contenedor-enlaces {
+  width: 30%;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.contenedor-enlaces h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contenedor-enlaces nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contenedor-enlaces li {
+  list-style: none;
+}
+
+.contenedor-enlaces a {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+}
+
+.contenedor-enlaces a:hover {
+  color: #f49ac2;
+}
+
+.archivos {
+  margin-top: 20px;
+}
+
+#footer {
+  margin-top: 40px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+#footer span {
+  font-size: 1rem;
+  width: 100%;
+}
